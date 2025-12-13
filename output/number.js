@@ -1,0 +1,22 @@
+var num1 = 10;
+var num2 = 20;
+var num3 = "20";
+var total = num1 + num3;
+console.log(total);
+var oct = 32769;
+var hexa = 33;
+var binary = 0x100001;
+console.log(oct + 10);
+var item1 = 10;
+var item2 = "10";
+// var itemConverted = Number(item2);
+var itemConverted = +item2;
+// console.log(item1 + itemConverted);
+console.log(item1 + +itemConverted);
+// TypeInference -->> Automatic TypeScript Detect Values
+// var data = 30;
+// data = 20;
+// data = "Hello";
+var data = 30;
+data = "Hello";
+console.log(data);

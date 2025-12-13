@@ -1,0 +1,15 @@
+var str1 = "Hello";
+var str2 = "Hello";
+var str3 = "Hello from typescript";
+var age = 35;
+var userName = "Himanshu";
+console.log("my name is ".concat(userName, " my age is ").concat(age));
+var num1 = 100;
+var numConvert = String(100);
+var numConvert2 = num1.toString();
+var numConvert3 = "" + numConvert2;
+console.log(typeof numConvert, typeof numConvert2, typeof numConvert3);
+var isLogin = true;
+var other;
+other = isLogin;
+console.log(typeof other);
