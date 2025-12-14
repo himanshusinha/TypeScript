@@ -1,9 +1,10 @@
+"use strict";
 var str1 = "Hello";
 var str2 = "Hello";
-var str3 = "Hello from typescript";
+var str3 = `Hello from typescript`;
 var age = 35;
-var userName = "Himanshu";
-console.log("my name is ".concat(userName, " my age is ").concat(age));
+var userNamee = "Himanshu";
+console.log(`my name is ${userNamee} my age is ${age}`);
 var num1 = 100;
 var numConvert = String(100);
 var numConvert2 = num1.toString();

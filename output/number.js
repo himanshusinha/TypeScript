@@ -1,10 +1,11 @@
+"use strict";
 var num1 = 10;
 var num2 = 20;
 var num3 = "20";
 var total = num1 + num3;
 console.log(total);
-var oct = 32769;
-var hexa = 33;
+var oct = 0o100001;
+var hexa = 0b100001;
 var binary = 0x100001;
 console.log(oct + 10);
 var item1 = 10;

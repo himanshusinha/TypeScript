@@ -2,7 +2,7 @@ declare var str1: string;
 declare var str2: string;
 declare var str3: string;
 declare var age: number;
-declare var userName: string;
+declare var userNamee: string;
 declare var num1: number;
 declare var numConvert: string;
 declare var numConvert2: string;

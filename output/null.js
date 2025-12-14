@@ -1,3 +1,4 @@
+"use strict";
 // null
 var data1 = null;
 data1 = "John Doe";

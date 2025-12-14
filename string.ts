@@ -3,8 +3,8 @@ var str2 = "Hello";
 var str3 = `Hello from typescript`;
 
 var age: number = 35;
-var userName: string = "Himanshu";
-console.log(`my name is ${userName} my age is ${age}`);
+var userNamee: string = "Himanshu";
+console.log(`my name is ${userNamee} my age is ${age}`);
 
 var num1: number = 100;
 var numConvert: string = String(100);
