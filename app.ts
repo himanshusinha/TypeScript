@@ -1,79 +1,38 @@
-// // var firstName: string = "Himanshu";
-// // var collegeName: string = "DAVV";
-// // console.log(firstName);
-// // console.log(collegeName);
-
-// var num: number = 10;
+// var num: number = 20;
+// var num: number = 10.121212;
 // console.log(num);
 
-// var user: string = "Himanshu";
-// console.log(user);
+// var userName: string = "Himanshu";
+// console.log(userName);
 
-// var isLogin: boolean = true;
-// console.log(isLogin);
+// var isLoggedIn: boolean = true;
+// console.log(isLoggedIn);
 
 // var data = "";
-// console.log(data);
+// var data1 = null;
 
-// // var age: any;
-// // console.log(age);
+// let firstName;
+// firstName = "Himanshu";
+// console.log(firstName);
 
-// var a = undefined;
-// console.log(a);
+// const sym1 = Symbol();
+// const sym2 = Symbol("description");
+// const sym3 = Symbol("description");
 
-// var sym1 = Symbol();
-// var sym2 = Symbol("description");
-// var sym3 = Symbol("description");
+// console.log(sym1 === sym2);
+// console.log(sym2 === sym3);
 
-// console.log(sym1 == sym2);
-// console.log(sym2 == sym3);
+// Object Type
+//Array
+let num: number[] = [1, 2, 3, 4, 5];
+let names: Array<string> = ["John", "Doe"];
+console.log(names);
+console.log(num);
 
-// // Array
-// var num1: number[] = [10, 20, 23];
+// Tuple
+let person: [string, number] = ["himanshu", 35];
+console.log(person);
 
-// // Tuple
-// var person: [string, number] = ["Himanshu", 35];
-// console.log(person);
-
-// // Object
-// var userInfo: { name: string; age: number } = { name: "Himashu", age: 22 };
-// console.log(userInfo);
-
-// // any
-// var x: any = 10;
-
-// //unknown
-// var input: unknown = "Hello";
-// if (typeof input === "string") {
-//   console.log(input.toUpperCase());
-// }
-
-// // Union (Multiple Types holds)
-
-// let value: string | number;
-// value = "Hello";
-// value = 23;
-// console.log(value);
-
-// // Intersection (Combine Multiple Types)
-// type Employee = { name: string };
-// type Manager = { department: string };
-// type TeamLead = Employee & Manager;
-// let lead: TeamLead = { name: "Himanshu", department: "Engineering" };
-
-// // Type Alias
-// type Id = string | number;
-// let userId: Id = "user 123";
-
-// // Enum
-// enum Role {
-//   Admin,
-//   User,
-//   Guest,
-// }
-// let userRole: Role = Role.Admin;
-
-// // Literal Types
-// let direction: "up" | "down";
-// direction = "up";
-// direction = "down";
+// Object
+let user: { name: string; age: number } = { name: "himanshu", age: 34 };
+console.log(user.age);

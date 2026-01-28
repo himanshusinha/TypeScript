@@ -1,11 +1,9 @@
+declare var str: string;
 declare var str1: string;
 declare var str2: string;
-declare var str3: string;
 declare var age: number;
-declare var userNamee: string;
-declare var num1: number;
-declare var numConvert: string;
-declare var numConvert2: string;
-declare var numConvert3: string;
-declare var isLogin: boolean;
-declare var other: any;
+declare var userName: string;
+declare var num: number;
+declare var data: string | number;
+declare var boolData: boolean;
+declare var dataa: string;

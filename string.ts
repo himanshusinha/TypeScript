@@ -1,18 +1,23 @@
-var str1 = "Hello";
-var str2 = "Hello";
-var str3 = `Hello from typescript`;
+var str: string = "Hello How are you";
+var str1: string = "Hello How are you";
+var str2: string = `Hello how are you`;
 
-var age: number = 35;
-var userNamee: string = "Himanshu";
-console.log(`my name is ${userNamee} my age is ${age}`);
+var age: number = 30;
+var userName: string = "John";
 
-var num1: number = 100;
-var numConvert: string = String(100);
-var numConvert2: string = num1.toString();
-var numConvert3: string = "" + numConvert2;
-console.log(typeof numConvert, typeof numConvert2, typeof numConvert3);
+console.log(`my name is ${userName} my age is ${age}`);
 
-var isLogin: boolean = true;
-var other;
-other = isLogin;
-console.log(typeof other);
+var num11 = 10;
+// console.log(typeof data);
+// var data: string = num.toString();
+var data11 = " " + num11;
+console.log(typeof data11);
+
+var boolData = true;
+// var data = boolData.toString()
+var dataa: string = " " + boolData;
+console.log(typeof dataa);
+
+// var item: boolean = true;
+// var other: boolean;
+// other = "Hello";
